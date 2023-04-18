@@ -1,0 +1,32 @@
+
+#wrapper{
+    justify-content: center !important;
+    align-items: center;
+    height: 100% !important;
+}
+
+.login-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 350px;
+    margin-left: -175px;
+    margin-top: 200px;
+    input, select {
+        width: 350px;
+        margin: 0;
+    }
+    label{
+        margin-bottom: 1px;
+    }
+    button[type="submit"]{
+        margin-top: 20px;
+        width: 100px;
+        flex: 0 1 auto;
+        align-self: flex-end;
+    }
+    .alert{
+        margin: -20px 0 20px 0px;
+    }
+}

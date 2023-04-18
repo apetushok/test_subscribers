@@ -1,0 +1,40 @@
+
+html {
+    min-height: 100vh;
+    height: -webkit-fill-available;
+    body {
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+        main {
+            height: 100vh;
+            height: -webkit-fill-available;
+            max-height: 100vh;
+            overflow-x: auto;
+            overflow-y: hidden;
+            .d-divider {
+                border-left: 1px solid rgba(0, 0, 0, .15);
+                flex-shrink: 0;
+                width: 2px;
+                height: 100vh;
+            }
+        }
+        #wrapper{
+            justify-content: center !important;
+            align-items: flex-start;
+            height: 100% !important;
+            #content-wrapper {
+                background-color: #f8f9fc;
+                width: 100%;
+                overflow-x: hidden;
+                justify-content: space-between;
+                display: flex !important;
+                height: 100%;
+            }
+        }
+    }
+}
+
+*:disabled, .disabled {
+    border-color: grey !important;
+    color: grey !important;
+}
